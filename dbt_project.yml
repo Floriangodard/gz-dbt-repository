@@ -36,7 +36,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 
 models:
-  dbt_project.yml:
+  peppy-transit-456809-g0.dbt_floriangodard:
     # Applies to all files under models/example/
     mart:
-      +materialized: table
+      +materialized: 'table'
